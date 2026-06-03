@@ -1,0 +1,265 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-grow: 1;
+    background-color: #1F2937;
+}
+
+.header .text{
+    padding:48px;
+}
+
+.links{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    gap:16px;
+    padding:48px;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-right:32px;
+}
+
+
+.header .logo{
+    margin-right:auto;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.logo{
+    width:800px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    flex-direction: row;
+    gap:32px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    flex-basis: 400px;
+    background-color: #1F2937;
+    padding: 64px 128px;
+}
+
+.intro .sign{
+    flex-grow: 1;
+    padding: 48px;
+    width:400px;
+    padding: 10px;
+}
+
+.intro img{
+    height: 300px;
+    width: 600px;
+    flex-shrink: 1;
+    border-radius: 15px;
+    border: #E5E7EB solid 2px;
+}
+
+.intro .img{
+    display: flex;
+    flex-grow: 1;
+    padding: 48px;
+    justify-content: center;
+}
+
+.intro .sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.intro .heading{
+    font-size:  48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.intro .main{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px;
+}
+
+.intro button{
+    background-color: #3882F6;
+    font-size:16px;
+    border: none;
+    border-radius: 10px;
+    padding:8px 32px;
+    color: #F9FAF8;
+}
+
+.intro .button{
+    align-self: flex-start;
+    padding-left: 16px;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    flex-basis: 400px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.images img{
+    border:#3882F6 solid 2px;
+    border-radius: 10px;
+}
+
+.images .heading{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    padding: 32px;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+.container{
+    display: flex;
+    align-items: center;    
+    flex-direction:column ;
+}
+
+.section .text{
+    width: 288px;
+    text-align: center;
+    flex-wrap: wrap;
+    padding:16px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    flex-basis: 400px;
+    background-color: #E7E5EB;
+    margin:auto;
+}
+
+.quote .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    padding: 32px;
+    height: 70%;
+    width: 50%;
+    color: #15293780;
+    
+}
+
+.quote .signature{
+    text-align: end;
+    flex-grow: 1;
+    padding: 16px;
+    margin-left:300px;
+    font-size: 24px;
+    color: #152937;
+    font-weight: 700;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: auto;
+    flex-grow: 1;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 32px;
+}
+
+.call{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    flex-basis: 400px;
+}
+
+.blue{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:64px;
+    background-color: #3882F6;
+    padding: 32px 96px;
+    border-radius: 5px;
+}
+
+.blue .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call .heading{
+    color:#F9FAF8;
+    font-weight: 900;
+    font-size: 24px;
+    padding: 8px;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.call .mini{
+    color:#F9FAF8;
+    font-weight: 200;
+    padding: 8px;
+}
+
+.call button{
+    background-color: #3882F6;
+    font-size: 16px;
+    border: #F9FAF8 solid 2px;
+    padding: 8px 32px;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
