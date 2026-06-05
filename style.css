@@ -114,6 +114,7 @@ ul{
     border-radius: 10px;
     padding:8px 32px;
     color: #F9FAF8;
+    cursor: pointer;
 }
 
 .intro .button{
@@ -262,4 +263,5 @@ ul{
     padding: 8px 32px;
     color: #F9FAF8;
     border-radius: 10px;
+    cursor:pointer;
 }
